@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		967F2D5E21EE324600FA635A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967F2D5D21EE324600FA635A /* AppDelegate.swift */; };
+		967F2D6021EE324600FA635A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967F2D5F21EE324600FA635A /* ViewController.swift */; };
+		967F2D6321EE324600FA635A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 967F2D6121EE324600FA635A /* Main.storyboard */; };
+		967F2D6521EE324A00FA635A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 967F2D6421EE324A00FA635A /* Assets.xcassets */; };
+		967F2D6821EE324A00FA635A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 967F2D6621EE324A00FA635A /* LaunchScreen.storyboard */; };
+		967F2D7321EE324A00FA635A /* Life_LiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967F2D7221EE324A00FA635A /* Life_LiftTests.swift */; };
+		967F2D7E21EE331B00FA635A /* tasks.plist in Resources */ = {isa = PBXBuildFile; fileRef = 967F2D7D21EE331B00FA635A /* tasks.plist */; };
+		967F2D8621EE33AD00FA635A /* SecondTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967F2D7F21EE33AC00FA635A /* SecondTableViewController.swift */; };
+		967F2D8721EE33AD00FA635A /* FirstTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967F2D8021EE33AC00FA635A /* FirstTableViewController.swift */; };
+		967F2D8821EE33AD00FA635A /* ThirdTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967F2D8121EE33AC00FA635A /* ThirdTableViewController.swift */; };
+		967F2D8921EE33AD00FA635A /* SelectColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967F2D8221EE33AC00FA635A /* SelectColorViewController.swift */; };
+		967F2D8A21EE33AD00FA635A /* FourthTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967F2D8321EE33AC00FA635A /* FourthTableViewController.swift */; };
+		967F2D8B21EE33AD00FA635A /* FifthTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967F2D8421EE33AC00FA635A /* FifthTableViewController.swift */; };
+		967F2D8C21EE33AD00FA635A /* tableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967F2D8521EE33AD00FA635A /* tableCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		967F2D6F21EE324A00FA635A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 967F2D5221EE324600FA635A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 967F2D5921EE324600FA635A;
+			remoteInfo = "Life Lift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		967F2D5A21EE324600FA635A /* Life Lift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Life Lift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		967F2D5D21EE324600FA635A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		967F2D5F21EE324600FA635A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		967F2D6221EE324600FA635A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		967F2D6421EE324A00FA635A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		967F2D6721EE324A00FA635A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		967F2D6921EE324A00FA635A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		967F2D6E21EE324A00FA635A /* Life LiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Life LiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		967F2D7221EE324A00FA635A /* Life_LiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Life_LiftTests.swift; sourceTree = "<group>"; };
+		967F2D7421EE324A00FA635A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		967F2D7D21EE331B00FA635A /* tasks.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tasks.plist; sourceTree = "<group>"; };
+		967F2D7F21EE33AC00FA635A /* SecondTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondTableViewController.swift; sourceTree = "<group>"; };
+		967F2D8021EE33AC00FA635A /* FirstTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstTableViewController.swift; sourceTree = "<group>"; };
+		967F2D8121EE33AC00FA635A /* ThirdTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdTableViewController.swift; sourceTree = "<group>"; };
+		967F2D8221EE33AC00FA635A /* SelectColorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectColorViewController.swift; sourceTree = "<group>"; };
+		967F2D8321EE33AC00FA635A /* FourthTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthTableViewController.swift; sourceTree = "<group>"; };
+		967F2D8421EE33AC00FA635A /* FifthTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FifthTableViewController.swift; sourceTree = "<group>"; };
+		967F2D8521EE33AD00FA635A /* tableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tableCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		967F2D5721EE324600FA635A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		967F2D6B21EE324A00FA635A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		967F2D5121EE324600FA635A = {
+			isa = PBXGroup;
+			children = (
+				967F2D5C21EE324600FA635A /* Life Lift */,
+				967F2D7121EE324A00FA635A /* Life LiftTests */,
+				967F2D5B21EE324600FA635A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		967F2D5B21EE324600FA635A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				967F2D5A21EE324600FA635A /* Life Lift.app */,
+				967F2D6E21EE324A00FA635A /* Life LiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		967F2D5C21EE324600FA635A /* Life Lift */ = {
+			isa = PBXGroup;
+			children = (
+				967F2D5D21EE324600FA635A /* AppDelegate.swift */,
+				967F2D8021EE33AC00FA635A /* FirstTableViewController.swift */,
+				967F2D7F21EE33AC00FA635A /* SecondTableViewController.swift */,
+				967F2D8121EE33AC00FA635A /* ThirdTableViewController.swift */,
+				967F2D8321EE33AC00FA635A /* FourthTableViewController.swift */,
+				967F2D8421EE33AC00FA635A /* FifthTableViewController.swift */,
+				967F2D8221EE33AC00FA635A /* SelectColorViewController.swift */,
+				967F2D8521EE33AD00FA635A /* tableCell.swift */,
+				967F2D5F21EE324600FA635A /* ViewController.swift */,
+				967F2D6121EE324600FA635A /* Main.storyboard */,
+				967F2D6621EE324A00FA635A /* LaunchScreen.storyboard */,
+				967F2D6421EE324A00FA635A /* Assets.xcassets */,
+				967F2D6921EE324A00FA635A /* Info.plist */,
+				967F2D7D21EE331B00FA635A /* tasks.plist */,
+			);
+			path = "Life Lift";
+			sourceTree = "<group>";
+		};
+		967F2D7121EE324A00FA635A /* Life LiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				967F2D7221EE324A00FA635A /* Life_LiftTests.swift */,
+				967F2D7421EE324A00FA635A /* Info.plist */,
+			);
+			path = "Life LiftTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		967F2D5921EE324600FA635A /* Life Lift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 967F2D7721EE324A00FA635A /* Build configuration list for PBXNativeTarget "Life Lift" */;
+			buildPhases = (
+				967F2D5621EE324600FA635A /* Sources */,
+				967F2D5721EE324600FA635A /* Frameworks */,
+				967F2D5821EE324600FA635A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Life Lift";
+			productName = "Life Lift";
+			productReference = 967F2D5A21EE324600FA635A /* Life Lift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		967F2D6D21EE324A00FA635A /* Life LiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 967F2D7A21EE324A00FA635A /* Build configuration list for PBXNativeTarget "Life LiftTests" */;
+			buildPhases = (
+				967F2D6A21EE324A00FA635A /* Sources */,
+				967F2D6B21EE324A00FA635A /* Frameworks */,
+				967F2D6C21EE324A00FA635A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				967F2D7021EE324A00FA635A /* PBXTargetDependency */,
+			);
+			name = "Life LiftTests";
+			productName = "Life LiftTests";
+			productReference = 967F2D6E21EE324A00FA635A /* Life LiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		967F2D5221EE324600FA635A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = IM;
+				TargetAttributes = {
+					967F2D5921EE324600FA635A = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
+					};
+					967F2D6D21EE324A00FA635A = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 967F2D5921EE324600FA635A;
+					};
+				};
+			};
+			buildConfigurationList = 967F2D5521EE324600FA635A /* Build configuration list for PBXProject "Life Lift" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 967F2D5121EE324600FA635A;
+			productRefGroup = 967F2D5B21EE324600FA635A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				967F2D5921EE324600FA635A /* Life Lift */,
+				967F2D6D21EE324A00FA635A /* Life LiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		967F2D5821EE324600FA635A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				967F2D6821EE324A00FA635A /* LaunchScreen.storyboard in Resources */,
+				967F2D6521EE324A00FA635A /* Assets.xcassets in Resources */,
+				967F2D6321EE324600FA635A /* Main.storyboard in Resources */,
+				967F2D7E21EE331B00FA635A /* tasks.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		967F2D6C21EE324A00FA635A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		967F2D5621EE324600FA635A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				967F2D8A21EE33AD00FA635A /* FourthTableViewController.swift in Sources */,
+				967F2D8B21EE33AD00FA635A /* FifthTableViewController.swift in Sources */,
+				967F2D8721EE33AD00FA635A /* FirstTableViewController.swift in Sources */,
+				967F2D8C21EE33AD00FA635A /* tableCell.swift in Sources */,
+				967F2D6021EE324600FA635A /* ViewController.swift in Sources */,
+				967F2D8621EE33AD00FA635A /* SecondTableViewController.swift in Sources */,
+				967F2D8821EE33AD00FA635A /* ThirdTableViewController.swift in Sources */,
+				967F2D8921EE33AD00FA635A /* SelectColorViewController.swift in Sources */,
+				967F2D5E21EE324600FA635A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		967F2D6A21EE324A00FA635A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				967F2D7321EE324A00FA635A /* Life_LiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		967F2D7021EE324A00FA635A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 967F2D5921EE324600FA635A /* Life Lift */;
+			targetProxy = 967F2D6F21EE324A00FA635A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		967F2D6121EE324600FA635A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				967F2D6221EE324600FA635A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		967F2D6621EE324A00FA635A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				967F2D6721EE324A00FA635A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		967F2D7521EE324A00FA635A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		967F2D7621EE324A00FA635A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		967F2D7821EE324A00FA635A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QRB7BP6725;
+				INFOPLIST_FILE = "Life Lift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.im.lifelift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		967F2D7921EE324A00FA635A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QRB7BP6725;
+				INFOPLIST_FILE = "Life Lift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.im.lifelift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		967F2D7B21EE324A00FA635A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K332AY88Z6;
+				INFOPLIST_FILE = "Life LiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.im.Life-LiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Life Lift.app/Life Lift";
+			};
+			name = Debug;
+		};
+		967F2D7C21EE324A00FA635A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K332AY88Z6;
+				INFOPLIST_FILE = "Life LiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.im.Life-LiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Life Lift.app/Life Lift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		967F2D5521EE324600FA635A /* Build configuration list for PBXProject "Life Lift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				967F2D7521EE324A00FA635A /* Debug */,
+				967F2D7621EE324A00FA635A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		967F2D7721EE324A00FA635A /* Build configuration list for PBXNativeTarget "Life Lift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				967F2D7821EE324A00FA635A /* Debug */,
+				967F2D7921EE324A00FA635A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		967F2D7A21EE324A00FA635A /* Build configuration list for PBXNativeTarget "Life LiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				967F2D7B21EE324A00FA635A /* Debug */,
+				967F2D7C21EE324A00FA635A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 967F2D5221EE324600FA635A /* Project object */;
+}

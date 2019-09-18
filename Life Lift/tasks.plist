@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>tasks</key>
+	<array>
+		<dict>
+			<key>c</key>
+			<integer>2</integer>
+			<key>p</key>
+			<integer>5</integer>
+			<key>t</key>
+			<string>Theodore Maynard. Saint Benedict and His Monks.</string>
+		</dict>
+		<dict>
+			<key>c</key>
+			<integer>2</integer>
+			<key>p</key>
+			<integer>2</integer>
+			<key>t</key>
+			<string>Martin D. Joachim. Cataloguing and Classification.</string>
+		</dict>
+		<dict>
+			<key>c</key>
+			<integer>3</integer>
+			<key>p</key>
+			<integer>4</integer>
+			<key>t</key>
+			<string>Flowers on Mother&apos;s Day</string>
+		</dict>
+		<dict>
+			<key>c</key>
+			<integer>4</integer>
+			<key>p</key>
+			<integer>1</integer>
+			<key>t</key>
+			<string>The Grand Budapest Hotel</string>
+		</dict>
+		<dict>
+			<key>c</key>
+			<integer>2</integer>
+			<key>p</key>
+			<integer>1</integer>
+			<key>t</key>
+			<string>Bernhard Bischoff. Latin Palaeography</string>
+		</dict>
+		<dict>
+			<key>c</key>
+			<integer>3</integer>
+			<key>p</key>
+			<integer>4</integer>
+			<key>t</key>
+			<string>Big Data | Amazon</string>
+		</dict>
+		<dict>
+			<key>c</key>
+			<integer>3</integer>
+			<key>p</key>
+			<integer>3</integer>
+			<key>t</key>
+			<string>Ticket to Canada</string>
+		</dict>
+		<dict>
+			<key>c</key>
+			<integer>5</integer>
+			<key>p</key>
+			<integer>1</integer>
+			<key>t</key>
+			<string>Xcode and Swift</string>
+		</dict>
+		<dict>
+			<key>c</key>
+			<integer>5</integer>
+			<key>p</key>
+			<integer>1</integer>
+			<key>t</key>
+			<string>Lecture 1 | Classical Mechanics (Stanford)</string>
+		</dict>
+	</array>
+</dict>
+</plist>
